@@ -1,2 +1,8 @@
 # BREI
-Multi-Armed Bandit Regularized Expected Improvement for Efficient Global Optimization of Expensive Computer Experiments With Low Noise
+## Multi-Armed Bandit Regularized Expected Improvement for Efficient Global Optimization of Expensive Computer Experiments With Low Noise
+### Cite ([link to the article!](https://ieeexplore.ieee.org/document/)): 
+Meka, Rajitha, et al. "Multi-Armed Bandit Regularized Expected Improvement for Efficient Global Optimization of Expensive Computer Experiments With Low Noise." IEEE Access 9 (2021): 100125-100140.
+
+
+### Abstract:
+Computer experiments are widely used to mimic expensive physical processes as black-box functions. A typical challenge of expensive computer experiments is to find the set of inputs that produce the desired response. Here, we propose a multi-armed bandit regularized expected improvement (BREI) method to adaptively adjust the balance between exploration and exploitation for efficient global optimization of long-running computer experiments with low noise. To integrate the information of additional exploration and exploitation into the optimization process, we propose to add the standard deviation of the stochastic improvement by candidate points to the objective function of the expected improvement as a regularization term. We also develop a multi-armed bandit strategy based on Thompson sampling for adaptive optimization of the tuning parameter of the regularization term based on the preexisting and newly tested points. We discuss the intuitive relation between the proposed BREI and the mode of stochastic improvement, integrated experimental design, and the upper confidence bound Gaussian process. Using a case study on optimization of the collision avoidance algorithm in mobile robot motion planning as well as extensive simulation studies, we validate the proposed algorithm against some of the existing methods in the literature under different levels of noise.
